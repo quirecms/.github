@@ -1,0 +1,62 @@
+name: Bug report
+description: Something doesn't work as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search the [existing issues](https://github.com/quirecms/framework/issues) first.
+        **Security issues don't belong here:** report them privately, as described in the [security policy](https://github.com/quirecms/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest way to see the problem, starting from a fresh install if you can.
+      placeholder: |
+        1. bin/console quire:content:create post "Hello" --publish
+        2. Open /blog/hello
+        3. …
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Quire version
+      description: The version of `quire/core` (`composer show quire/core`), or the commit if you run from `main`.
+    validations:
+      required: true
+  - type: dropdown
+    id: setup
+    attributes:
+      label: How do you run Quire?
+      options:
+        - With the Docker setup, for development
+        - With the Docker setup, in production
+        - My own server setup
+        - Inside another Symfony application
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: PHP and PostgreSQL versions
+      placeholder: PHP 8.5.11, PostgreSQL 18.6
+  - type: textarea
+    id: extensions
+    attributes:
+      label: Extensions and theme
+      description: The output of `bin/console quire:extension:list` and `bin/console quire:theme:list`.
+      render: text
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error messages or logs
+      description: The full error, e.g. from `var/log/` or `docker compose logs php`. Remove passwords and personal data.
+      render: text
