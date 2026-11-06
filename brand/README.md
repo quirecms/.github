@@ -40,4 +40,4 @@ Please don't:
 - use them in a way that suggests your product, company or event is Quire's or endorsed by YorvoLabs;
 - use "Quire" as the first word of a product or package name. "Reviews for Quire" is fine, "Quire Reviews" isn't. Packages use their own vendor name, e.g. `acme/quire-reviews`.
 
-For anything else, ask the maintainers by opening an issue in [quirecms/framework](https://github.com/quirecms/framework/issues).
+For anything else, write to [hello@quirecms.com](mailto:hello@quirecms.com), or open an issue in [quirecms/framework](https://github.com/quirecms/framework/issues).
