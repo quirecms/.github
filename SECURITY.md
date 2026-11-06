@@ -6,15 +6,17 @@ This policy applies to every repository of the Quire organisation that doesn't h
 
 **Please do not report security vulnerabilities through public GitHub issues, discussions or pull requests.**
 
-Report them privately through GitHub instead:
+Report them privately, in either of these ways:
 
-1. Go to the **Security** tab of the affected repository, e.g. [quirecms/framework](https://github.com/quirecms/framework/security).
-2. Click **Report a vulnerability**.
-3. Describe the issue. Include as much of the following as you can:
-   - the affected package (e.g. `quire/core`) and version or commit;
-   - the type of issue (e.g. SQL injection, cross-site scripting, authentication bypass);
-   - steps to reproduce, or a proof of concept;
-   - the impact, i.e. what an attacker could achieve.
+- **Through GitHub:** go to the **Security** tab of the affected repository, e.g. [quirecms/framework](https://github.com/quirecms/framework/security), and click **Report a vulnerability**.
+- **By email:** write to [security@quirecms.com](mailto:security@quirecms.com).
+
+Describe the issue. Include as much of the following as you can:
+
+- the affected package (e.g. `quire/core`) and version or commit;
+- the type of issue (e.g. SQL injection, cross-site scripting, authentication bypass);
+- steps to reproduce, or a proof of concept;
+- the impact, i.e. what an attacker could achieve.
 
 Only the maintainers can see your report.
 
