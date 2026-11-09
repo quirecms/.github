@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Report a security vulnerability
-    url: https://github.com/quirecms/framework/security/advisories/new
-    about: Report security issues privately, never in a public issue.
+    url: https://github.com/quirecms/.github/blob/main/SECURITY.md
+    about: Report security issues privately (through the repository's Security tab, or to security@quirecms.com), never in a public issue.
   - name: Documentation
     url: https://github.com/quirecms/framework/tree/main/docs
-    about: Guides to extensions, themes, content, settings, backups and Docker.
+    about: Guides to extensions, themes, content, the admin, users and permissions, settings, storage, backups and Docker.
+  - name: Quire Server's documentation
+    url: https://github.com/quirecms/server#readme
+    about: Installing it, sites, updates, backups and security.
