@@ -29,7 +29,7 @@ body:
     id: version
     attributes:
       label: Quire version
-      description: The version of `quire/core` (`composer show quire/core`), or the commit if you run from `main`.
+      description: The version of `quire/core` (`composer show quire/core`), or the commit if you run from `main`. For Quire Server, its version too (`quire-server --version`).
     validations:
       required: true
   - type: dropdown
@@ -41,6 +41,7 @@ body:
         - With the Docker setup, in production
         - My own server setup
         - Inside another Symfony application
+        - With Quire Server
     validations:
       required: true
   - type: input
