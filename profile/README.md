@@ -7,6 +7,13 @@
 
 <p align="center"><strong>The extensible CMS for PHP, built on Symfony.</strong></p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/quirecms/.github/main/brand/quire-hero-dark.png">
+    <img src="https://raw.githubusercontent.com/quirecms/.github/main/brand/quire-hero-light.png" alt="Quire's admin: the Home screen on a desktop, with this week's timeline, the changes waiting for review and the latest activity, and writing a post on a phone." width="880">
+  </picture>
+</p>
+
 Quire has a small core, and everything else is an extension with the same API, the admin included. You write content in Markdown, with revisions and reviews; PostgreSQL holds everything, with uploaded files on a volume or any S3-compatible service, so one backup holds your whole site. Quire runs on its own or inside an existing Symfony application, and Quire Server runs many Quire sites on one machine.
 
 > **Status:** early development, no stable release yet (0.x). Content, URLs, extensions, themes, users and permissions, the admin in the browser and on phones, storage, backups, background jobs and the audit log work. Quire Server runs, updates, backs up and restores sites.

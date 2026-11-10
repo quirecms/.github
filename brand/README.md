@@ -12,8 +12,10 @@ The Quire name, wordmark and "Q" mark are trademarks of YorvoLabs. Quire's code 
 | `quire-mark-white.png` | The "Q" mark on dark backgrounds (transparent, 256 px) |
 | `quire-avatar.png` | Profile pictures, e.g. of the GitHub organisation (white "Q" on navy, 500 × 500) |
 | `quire-social-preview.png` | The image shown when a repository is shared, e.g. on social networks (1280 × 640) |
+| `quire-hero-light.png` | Quire's admin, on a desktop and a phone, for READMEs and pages about Quire, on light backgrounds (1600 × 900) |
+| `quire-hero-dark.png` | The same in the admin's dark scheme, for dark backgrounds (1600 × 900) |
 
-In a README, show the wordmark that suits the reader's colour scheme:
+In a README, show the wordmark (and the admin's picture) that suits the reader's colour scheme:
 
 ```html
 <picture>
